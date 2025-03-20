@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1><%= title %></h1>
+    <p>Welcome to your Fastify starter kit!</p>
+    
+    <div class="todo-app">
+      <h2>Todo List</h2>
+      <div class="input-group">
+        <input type="text" id="todoInput" placeholder="Add new todo...">
+        <button id="addTodoBtn">Add</button>
+      </div>
+      <ul id="todoList" class="todo-list"></ul>
+    </div>
+  </div>
+  
+  <script src="/public/js/app.js"></script>
+</body>
+</html> 
